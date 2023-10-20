@@ -33,11 +33,6 @@ body {
   .displayTurn {
     font-size: 2.5rem;
   }
-  .buttons {
-    cursor: pointer;
-    height: 20px;
-    padding-bottom: 3rem;
-  }
   .btn {
     transition: all 0.2s ease-in-out;
   }
@@ -75,8 +70,8 @@ body {
     align-items: center;
     text-align: center;
     padding-left: 1.6vw;
-    box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
-      0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+    box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem red,
+      0 0 0.8rem red, 0 0 2.8rem red, inset 0 0 1.3rem red;
     color: #fff;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
@@ -125,7 +120,7 @@ body {
   /* Modal Content/Box */
   .modal-content,
   .front-content {
-    background-color: rgba(101, 255, 191, 0.164);
+    background-color: rgba(204, 0, 20, 0.7);
     text-align: center;
     width: 100%; /* Could be more or less, depending on screen size */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -143,8 +138,8 @@ body {
     border: 0.2rem solid #fff;
     border-radius: 2rem;
     padding: 2rem 5rem 2rem 5rem;
-    box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
-      0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+    box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem red,
+      0 0 0.8rem red, 0 0 2.8rem red, inset 0 0 1.3rem red;
     min-height: 100%;
     display: flex;
     justify-content: center;
